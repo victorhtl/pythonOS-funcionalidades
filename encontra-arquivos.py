@@ -1,11 +1,3 @@
-"""
-Você insere o caminho de uma pasta com uma palavra chave de procura
-e, caso encontre algum arquivo, o script retorna as seguintes informações:
-Caminho completo
-Nome do arquivo
-Extensão do arquivo
-Tamanho
-"""
 import os
 
 
@@ -61,4 +53,4 @@ def encontra_arquivo(caminho, termo=''):
     print(f'{conta} arquivos encontrados')
 
 
-encontra_arquivo('', '')
+encontra_arquivo('caminho', 'key_word')
